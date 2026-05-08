@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frida Tracing Discovery"
+  short_description: "Find classes, symbols, and call paths"
+  default_prompt: "Use $frida-tracing-discovery to discover the right Frida hook points before writing a final script."

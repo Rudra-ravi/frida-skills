@@ -1,6 +1,6 @@
 ---
 name: frida-ios-hooks
-description: Create and debug Frida instrumentation for iOS apps, including Objective-C methods, Swift symbols, modules, Interceptor hooks, SSL pinning analysis, rootless jailbreak constraints, Gadget workflows, and ObjC availability failures.
+description: Create and debug Frida hooks for iOS apps, including Objective-C, Swift symbols, modules, Interceptor, TLS pinning, rootless jailbreaks, Gadget, and ObjC issues.
 ---
 
 # Frida iOS Hooks

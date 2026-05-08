@@ -1,6 +1,6 @@
 ---
 name: frida-troubleshooting
-description: Diagnose Frida failures including attach/spawn errors, version mismatches, frida-server issues, Gadget loading, hooks not firing, app crashes, missing Java or ObjC runtime bridges, class-loader problems, anti-instrumentation behavior, and CLI/device connectivity issues.
+description: Diagnose Frida attach, spawn, version, frida-server, Gadget, hook, crash, Java, ObjC, class-loader, anti-instrumentation, and device connectivity failures.
 ---
 
 # Frida Troubleshooting

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frida Script Review"
+  short_description: "Review and harden Frida scripts"
+  default_prompt: "Use $frida-script-review to audit and simplify this Frida script before running it."

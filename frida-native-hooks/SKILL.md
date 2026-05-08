@@ -1,6 +1,6 @@
 ---
 name: frida-native-hooks
-description: Build and review Frida native instrumentation for C/C++/Objective-C runtime functions, exports, imports, symbols, memory scanning, Interceptor hooks, NativeFunction calls, NativeCallback replacements, Stalker, and CModule. Use for Linux, Android native libraries, iOS native modules, desktop processes, and performance-sensitive hooks.
+description: Build Frida native hooks for C/C++/Objective-C functions, exports, imports, symbols, memory, Interceptor, NativeFunction, Stalker, and CModule.
 ---
 
 # Frida Native Hooks

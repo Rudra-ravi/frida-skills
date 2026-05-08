@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frida Tools Reference"
+  short_description: "Choose and run Frida CLI tools"
+  default_prompt: "Use $frida-tools-reference to choose the right Frida command and explain the exact options."

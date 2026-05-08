@@ -1,6 +1,6 @@
 ---
 name: frida-agent-builder
-description: Scaffold, structure, and review maintainable Frida agent projects with TypeScript, frida-compile, RPC exports, reusable helpers, logging, version checks, and multi-hook organization. Use when a user wants a robust Frida script package instead of a one-off snippet.
+description: Build maintainable Frida agent projects with TypeScript, frida-compile, RPC exports, helpers, logging, version checks, and multi-hook organization.
 ---
 
 # Frida Agent Builder

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frida CodeShare Search"
+  short_description: "Find and extract Frida CodeShare scripts"
+  default_prompt: "Use $frida-codeshare-search to find, extract, review, and run a Frida CodeShare script."

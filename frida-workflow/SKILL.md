@@ -1,6 +1,6 @@
 ---
 name: frida-workflow
-description: Plan and execute Frida dynamic instrumentation work across Android, iOS, native libraries, desktop processes, Frida Gadget, and agent projects. Use when a user asks for Frida setup, target discovery, hook strategy, script chaining, runtime tracing, reverse-engineering instrumentation, or selecting which focused Frida skill to use next.
+description: Plan Frida instrumentation across Android, iOS, native libraries, desktop processes, Gadget, agents, setup, discovery, hook strategy, tracing, and skill routing.
 ---
 
 # Frida Workflow
@@ -17,10 +17,18 @@ Use this as the orchestration skill before writing or running Frida instrumentat
 
 ## Skill Routing
 
+- Use `frida-setup-checklist` before hook work when host, device, version, or transport state is unknown.
+- Use `frida-tools-reference` when choosing between `frida`, `frida-ps`, `frida-ls-devices`, `frida-trace`, `frida-discover`, `frida-kill`, or `frida-create`.
+- Use `frida-tracing-discovery` when class, symbol, module, method, or call path is unknown.
 - Use `frida-agent-builder` for TypeScript agents, reusable script projects, RPC exports, packaging, and multi-script organization.
 - Use `frida-native-hooks` for `Interceptor`, `NativeFunction`, memory scanning, exports, imports, symbols, CModule, and hot native paths.
 - Use `frida-android-hooks` for `Java.perform`, class loaders, overloads, JNI, Android pinning analysis, and APK-backed workflows.
 - Use `frida-ios-hooks` for `ObjC`, Swift/Objective-C methods, modules, iOS pinning analysis, and rootless jailbreak constraints.
+- Use `frida-tls-pinning` for TLS/SSL pinning analysis and bypass work across Java, ObjC, Flutter, React Native, BoringSSL/OpenSSL, Conscrypt, OkHttp, and SecTrust paths.
+- Use `frida-anti-instrumentation` for anti-Frida, root/jailbreak, emulator, debugger, ptrace, port scan, thread-name, and integrity checks.
+- Use `frida-data-extraction` when the goal is observing runtime data such as HTTP, headers, tokens, JSON, crypto inputs/outputs, preferences, files, SQLite, or memory buffers.
+- Use `frida-codeshare-search` to search CodeShare, extract scripts, review source, and convert public snippets into local agents or `--codeshare` commands.
+- Use `frida-script-review` before running public, generated, broad, native-pointer-heavy, or mutation-heavy scripts.
 - Use `frida-troubleshooting` when attach/spawn fails, hooks do not fire, the target crashes, `ObjC`/`Java` is unavailable, or versions mismatch.
 
 ## Workflow

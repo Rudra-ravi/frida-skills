@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frida Setup Checklist"
+  short_description: "Verify Frida tools, devices, and versions"
+  default_prompt: "Use $frida-setup-checklist to verify my Frida host, device, and smoke-test setup."

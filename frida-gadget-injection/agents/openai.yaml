@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frida Gadget Injection"
+  short_description: "Plan and debug embedded Frida Gadget"
+  default_prompt: "Use $frida-gadget-injection to set up or troubleshoot Frida Gadget for an app."

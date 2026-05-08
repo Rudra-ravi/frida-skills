@@ -1,6 +1,6 @@
 ---
 name: frida-android-hooks
-description: Create and debug Frida instrumentation for Android apps, including Java.perform hooks, overloads, constructors, class loaders, Kotlin/Java methods, JNI/native bridges, SSL pinning analysis, spawn-time hooks, and frida-server or Gadget workflows.
+description: Create and debug Frida hooks for Android apps, including Java.perform, overloads, constructors, class loaders, Kotlin, JNI, pinning, spawn, and Gadget.
 ---
 
 # Frida Android Hooks

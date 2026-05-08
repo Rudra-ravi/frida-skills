@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frida Data Extraction"
+  short_description: "Extract runtime data with Frida hooks"
+  default_prompt: "Use $frida-data-extraction to observe runtime data with safe Frida logging."
