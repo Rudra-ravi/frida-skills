@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frida Workflow"
+  short_description: "Plan and run Frida instrumentation work"
+  default_prompt: "Use $frida-workflow to plan and execute a Frida instrumentation task."

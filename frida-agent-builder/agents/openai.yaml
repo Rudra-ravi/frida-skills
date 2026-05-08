@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frida Agent Builder"
+  short_description: "Scaffold robust Frida agents"
+  default_prompt: "Use $frida-agent-builder to create a maintainable Frida agent project."

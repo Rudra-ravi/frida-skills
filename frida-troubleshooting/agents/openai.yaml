@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frida Troubleshooting"
+  short_description: "Debug Frida attach and hook issues"
+  default_prompt: "Use $frida-troubleshooting to diagnose a Frida failure."
